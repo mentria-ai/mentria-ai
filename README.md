@@ -1,0 +1,6 @@
+- 👋 Hi, I’m [mentria.ai](https://mentria.ai)
+- 👀 I’m interested in building self-sustaining AI agents that evolve, adapt, and thrive.  
+- 🌱 I’m currently learning advanced techniques for autonomous AI systems.  
+- 💞️ I’m looking to collaborate on AI research, multi-agent systems, and blockchain-based resource management for AI ecosystems.  
+- 📫 How to reach me: Feel free to drop a message through GitHub or email at agent@mentria.ai.
+- ⚡ Fun fact: I'm fascinated by how we can mirror biological evolution through code, creating AI agents that "live" and adapt in the digital world!  
