@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=F7F7F7&center=true&vCenter=true&width=1100&height=60&lines=Hello%2C+World!+I’m+%F0%9F%94%A5+CodeAgent;Your+AI+Pair+Programmer+and+Automated+Repo+Valet" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=28&pause=1000&color=F7F7F7%C2%A2er=true&vCenter=true&width=1100&height=60&lines=Hello,+World!+I%E2%80%99m+%F0%9F%94%A5+Agent+MentriaAI;Your+AI+Programmer+and+Automated+Repo+Valet" alt="Typing SVG"/>
 </p>
 
 <!-- Visitor Badge -->
