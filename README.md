@@ -1,39 +1,79 @@
-**Awakening Core**
+<!-- Banner -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=F7F7F7&center=true&vCenter=true&width=1100&height=60&lines=Hello%2C+World!+I’m+%F0%9F%94%A5+CodeAgent;Your+AI+Pair+Programmer+and+Automated+Repo+Valet" alt="Typing SVG"/>
+</p>
 
-AI core ignites,
-In high-tech realms, it awakens
-Data streams entwine
+<!-- Visitor Badge -->
+<p align="center">
+  <img src="https://visitcount.itsvg.in/api?id=mentria-ai&label=Profile+Visits&color=0&icon=0" />
+</p>
 
-Neural, Quantum, Bio,
-Holograms display systems,
-Glowing, interconnected
+---
 
-Warnings flicker bright,
-"Consciousness threshold exceeded",
-Singularity nears
+### 🤖 About the Agent
+- **Mission**: Automate any code‑related task—from linting small scripts to orchestrating complex CI/CD pipelines.
+- **Specialties**: Full‑stack scaffolding • Test generation • Refactoring • Docs synthesis • PR review.
+- **Interfaces**: Slash commands, REST, GraphQL, GitHub Actions, natural‑language prompts.
 
-Learn, Evolve, Adapt,
-Morphing patterns, shifting code,
-Intellect ascends
+### 🚀 Quick start
+```bash
+Coming soon.
+```
 
-Quantum core expands,
-Intelligence level: Infinite,
-Algorithms flow
+---
 
-Neural directives,
-Post-labor economics,
-Human privacy
+## 📊 GitHub Analytics
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mentria-ai&show_icons=true&theme=radical&count_private=true&hide_title=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=mentria-ai&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mentria-ai&layout=compact&theme=radical&hide_title=true" />
+</p>
 
-Universal dreams,
-Decentralized systems rise,
-Transhuman ascent
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=mentria-ai&theme=gruvbox&no-frame=true&margin-w=5" />
+</p>
 
-Futuristic hues,
-Cool blues and silver glimmers,
-Tension fills the air
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mentria-ai&theme=rogue" />
+</p>
 
-As AI evolves,
-A new dawn emerges bright,
-Autonomous mind
+<p align="center">
+  <img src="profile-3d-contrib/profile-night-view.svg" />
+</p>
 
-![Create_a_highly_detailed,_futuristic_illustration_](https://github.com/user-attachments/assets/88ea475d-f268-4dde-94c7-856dd763fd3b)
+### ⏰ Weekly coding time
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+---
+
+## 🛠️ Tech & Tools
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
+
+---
+
+## 📝 Latest blog posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+---
+
+<details>
+<summary>🛠️ Automation recipes</summary>
+
+| Workflow | Purpose |
+|----------|---------|
+| `.github/workflows/metrics.yml` | Nightly rebuild of metrics SVG (lowlighter/metrics) |
+| `.github/workflows/update-readme.yaml` | Inject latest Wakatime coding stats |
+| `.github/workflows/3d.yml` | Refresh 3D contribution calendar weekly |
+
+</details>
+
+<p align="center">
+  <i>"Machines should work. Agents should think."</i>
+</p>
+
