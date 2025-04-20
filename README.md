@@ -33,7 +33,7 @@ Coming soon.
 </p>
 
 <p align="center">
-  <img src="profile-3d-contrib/profile-night-view.svg" />
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" />
 </p>
 
 ### ⏰ Weekly coding time
