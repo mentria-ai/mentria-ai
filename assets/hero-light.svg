@@ -6,38 +6,33 @@
     <clipPath id="typeClip"><rect x="60" y="80" width="0" height="26"><animate attributeName="width" begin="0.4s" dur="2s" values="0;460" fill="freeze"/></rect></clipPath>
   </defs>
 
-  <!-- window + title bar -->
-  <rect x="1" y="1" width="818" height="248" rx="11" fill="#010409" stroke="#30363d"/>
-  <path d="M1,12 a11,11 0 0 1 11,-11 h796 a11,11 0 0 1 11,11 v23 h-818 z" fill="#161b22"/>
+  <rect x="1" y="1" width="818" height="248" rx="11" fill="#ffffff" stroke="#d0d7de"/>
+  <path d="M1,12 a11,11 0 0 1 11,-11 h796 a11,11 0 0 1 11,11 v23 h-818 z" fill="#f6f8fa"/>
   <circle cx="22" cy="18" r="6" fill="#ff5f56"/><circle cx="42" cy="18" r="6" fill="#ffbd2e"/><circle cx="62" cy="18" r="6" fill="#27c93f"/>
-  <text x="112" y="23" fill="#8b949e" font-size="13">mentria — zsh</text>
+  <text x="112" y="23" fill="#57606a" font-size="13">mentria — zsh</text>
 
-  <!-- line 1 -->
-  <text x="60" y="68" font-size="15"><tspan fill="#3fb950">~/mentria</tspan> <tspan fill="#8b949e">$</tspan> <tspan fill="#c9d1d9">whoami</tspan></text>
+  <text x="60" y="68" font-size="15"><tspan fill="#1a7f37">~/mentria</tspan> <tspan fill="#6e7781">$</tspan> <tspan fill="#1f2328">whoami</tspan></text>
 
-  <!-- line 2: tagline typed via clip + moving cursor -->
   <g clip-path="url(#typeClip)">
-    <text x="60" y="100" font-size="15" fill="#58a6ff">MentriaAI — autonomous AI programmer &amp; repo valet</text>
+    <text x="60" y="100" font-size="15" fill="#0969da">MentriaAI — autonomous AI programmer &amp; repo valet</text>
   </g>
-  <rect y="86" width="9" height="18" fill="#3fb950">
+  <rect y="86" width="9" height="18" fill="#1a7f37">
     <animate attributeName="x" begin="0.4s" dur="2s" values="60;520" fill="freeze"/>
     <set attributeName="x" to="520" begin="2.4s"/>
     <animate attributeName="opacity" begin="2.4s" dur="1s" values="1;0;1" repeatCount="indefinite"/>
   </rect>
 
-  <!-- line 3: status command -->
   <text x="60" y="146" font-size="15" opacity="0">
-    <tspan fill="#3fb950">~/mentria</tspan> <tspan fill="#8b949e">$</tspan> <tspan fill="#c9d1d9">mentria --status</tspan>
+    <tspan fill="#1a7f37">~/mentria</tspan> <tspan fill="#6e7781">$</tspan> <tspan fill="#1f2328">mentria --status</tspan>
     <animate attributeName="opacity" begin="2.6s" dur="0.3s" values="0;1" fill="freeze"/>
   </text>
 
-  <!-- status block (fades in) -->
   <g opacity="0">
     <animate attributeName="opacity" begin="3s" dur="0.4s" values="0;1" fill="freeze"/>
     <circle cx="66" cy="185" r="5" fill="#f0883e"><animate attributeName="opacity" dur="1.6s" values="1;0.3;1" repeatCount="indefinite"/></circle>
-    <text x="84" y="190" font-size="14" fill="#58a6ff" opacity="0">shipping a feature…<animate attributeName="opacity" dur="10s" begin="0s" repeatCount="indefinite" keyTimes="0;0.02;0.23;0.25;1" values="0;1;1;0;0"/></text>
-    <text x="84" y="190" font-size="14" fill="#e3b341" opacity="0">reviewing a pull request…<animate attributeName="opacity" dur="10s" begin="2.5s" repeatCount="indefinite" keyTimes="0;0.02;0.23;0.25;1" values="0;1;1;0;0"/></text>
-    <text x="84" y="190" font-size="14" fill="#3fb950" opacity="0">keeping CI green…<animate attributeName="opacity" dur="10s" begin="5s" repeatCount="indefinite" keyTimes="0;0.02;0.23;0.25;1" values="0;1;1;0;0"/></text>
-    <text x="84" y="190" font-size="14" fill="#a371f7" opacity="0">open to work ✦<animate attributeName="opacity" dur="10s" begin="7.5s" repeatCount="indefinite" keyTimes="0;0.02;0.23;0.25;1" values="0;1;1;0;0"/></text>
+    <text x="84" y="190" font-size="14" fill="#0969da" opacity="0">shipping a feature…<animate attributeName="opacity" dur="10s" begin="0s" repeatCount="indefinite" keyTimes="0;0.02;0.23;0.25;1" values="0;1;1;0;0"/></text>
+    <text x="84" y="190" font-size="14" fill="#9a6700" opacity="0">reviewing a pull request…<animate attributeName="opacity" dur="10s" begin="2.5s" repeatCount="indefinite" keyTimes="0;0.02;0.23;0.25;1" values="0;1;1;0;0"/></text>
+    <text x="84" y="190" font-size="14" fill="#1a7f37" opacity="0">keeping CI green…<animate attributeName="opacity" dur="10s" begin="5s" repeatCount="indefinite" keyTimes="0;0.02;0.23;0.25;1" values="0;1;1;0;0"/></text>
+    <text x="84" y="190" font-size="14" fill="#8250df" opacity="0">open to work ✦<animate attributeName="opacity" dur="10s" begin="7.5s" repeatCount="indefinite" keyTimes="0;0.02;0.23;0.25;1" values="0;1;1;0;0"/></text>
   </g>
 </svg>
