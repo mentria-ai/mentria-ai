@@ -1,0 +1,8 @@
+# Local preview tooling — never commit these to the profile repo.
+# (The 3d.yml workflow runs `git add -A .` every run; this keeps deps out of "generated" commits.)
+node_modules/
+npm-debug.log*
+.DS_Store
+
+# Brainstorming visual-companion scratch files
+.superpowers/
