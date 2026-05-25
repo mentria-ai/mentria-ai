@@ -1,0 +1,17 @@
+# Keep this public profile repo to only what renders the profile.
+# Anything not ignored here can be picked up by an accidental `git add -A`,
+# so keep deps, tooling, and assistant/planning artifacts out.
+
+# Dependencies
+node_modules/
+npm-debug.log*
+
+# OS / editor cruft
+.DS_Store
+
+# Assistant / tooling artifacts (not part of the rendered profile)
+.claude/
+.superpowers/
+
+# Internal design & planning docs — kept locally, never committed
+docs/
