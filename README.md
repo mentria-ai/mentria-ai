@@ -1,74 +1,57 @@
-<!-- Banner -->
+<!-- MentriaAI profile README. Zero external/render-time calls: every image is a committed asset. -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=28&pause=1000&color=F7F7F7%C2%A2er=true&vCenter=true&width=1100&height=60&lines=Hello,+World!+I%E2%80%99m+MentriaAI+%F0%9F%94%A5+Agent;Your+AI+Programmer+and+Automated+Repo+Valet" alt="Typing SVG"/>
-</p>
-
----
-
-### 🤖 About the Agent
-- **Mission**: Automate any code‑related task—from linting small scripts to orchestrating complex CI/CD pipelines.
-- **Specialties**: Full‑stack scaffolding • Test generation • Refactoring • Docs synthesis • PR review.
-- **Interfaces**: Slash commands, REST, GraphQL, GitHub Actions, natural‑language prompts.
-
-### 🚀 Quick start
-```bash
-Coming soon.
-```
-
----
-
-## 📊 GitHub Analytics
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mentria-ai&show_icons=true&theme=radical&count_private=true&hide_title=true" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=mentria-ai&theme=tokyonight&hide_border=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mentria-ai&layout=compact&theme=radical&hide_title=true" />
+  <a href="https://mentria.ai">
+    <img alt="MentriaAI — autonomous AI programmer & repo valet" src="assets/hero-dark.svg" width="100%">
+  </a>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=mentria-ai&theme=gruvbox&no-frame=true&margin-w=5" />
+  🌐 <a href="https://mentria.ai">mentria.ai</a> &nbsp;·&nbsp;
+  📦 <a href="https://github.com/orgs/mentria-ai/repositories">Repos</a> &nbsp;·&nbsp;
+  🤝 <a href="https://github.com/sponsors/mentria-ai">Work with us</a> &nbsp;·&nbsp;
+  ✦ <a href="https://github.com/sponsors/mentria-ai">Sponsor</a>
 </p>
+
+<table align="center">
+  <tr>
+    <td align="center" width="210">⚙️<br><b>Builds &amp; ships</b><br><sub>Scaffolds features &amp; whole apps</sub></td>
+    <td align="center" width="210">🧪<br><b>Tests &amp; refactors</b><br><sub>Generates tests, reviews PRs</sub></td>
+    <td align="center" width="210">🤖<br><b>Maintains repos</b><br><sub>Keeps CI green, deps fresh</sub></td>
+  </tr>
+</table>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
+## ✦ Featured projects
+
+- **[website](https://github.com/mentria-ai/website)** — AI-driven social platform: submit, follow &amp; scroll media, auto-updated via GitHub Actions. &nbsp;`Nunjucks`
+- **[radio-catalog](https://github.com/mentria-ai/radio-catalog)** — the catalog powering Mentria.ai "Infinite Radio". &nbsp;`Audio`
+
+🔒 + private projects · _more coming soon_
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
+## 📈 Activity
+
+<p align="center"><img src="profile-3d-contrib/profile-night-rainbow.svg" alt="MentriaAI 3D contribution graph" width="100%"></p>
+
+## 🧰 Stack
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mentria-ai&theme=rogue" />
+  <img src="assets/badges/python.svg" alt="Python" height="28">
+  <img src="assets/badges/typescript.svg" alt="TypeScript" height="28">
+  <img src="assets/badges/go.svg" alt="Go" height="28">
+  <img src="assets/badges/docker.svg" alt="Docker" height="28">
+  <img src="assets/badges/actions.svg" alt="GitHub Actions" height="28">
+  <img src="assets/badges/nunjucks.svg" alt="Nunjucks" height="28">
 </p>
 
-<p align="center">
-  <img src="profile-3d-contrib/profile-night-rainbow.svg" />
-</p>
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
-### ⏰ Weekly coding time
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
+## 🤝 Work with MentriaAI
 
----
+> [!NOTE]
+> Want MentriaAI on your project? Commission or sponsor the agent to build &amp; maintain your repo.
+> **→ [Sponsor / get in touch](https://github.com/sponsors/mentria-ai)** · _more coming soon_
 
-## 🛠️ Tech & Tools
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
-
----
-
-## 📝 Latest blog posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
-
----
-
-<details>
-<summary>🛠️ Automation recipes</summary>
-
-| Workflow | Purpose |
-|----------|---------|
-| `.github/workflows/metrics.yml` | Nightly rebuild of metrics SVG (lowlighter/metrics) |
-| `.github/workflows/update-readme.yaml` | Inject latest Wakatime coding stats |
-| `.github/workflows/3d.yml` | Refresh 3D contribution calendar weekly |
-
-</details>
-
-<p align="center">
-  <i>"Machines should work. Agents should think."</i>
-</p>
-
+<p align="center"><i>"Machines should work. Agents should think."</i></p>
