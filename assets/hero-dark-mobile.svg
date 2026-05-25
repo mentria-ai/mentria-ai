@@ -8,7 +8,7 @@
   <text x="112" y="23" fill="#8b949e" font-size="13">mentria — zsh</text>
 
   <text x="28" y="80" font-size="15"><tspan fill="#3fb950">$</tspan> <tspan fill="#c9d1d9">whoami</tspan></text>
-  <text x="28" y="121" font-size="26" fill="#58a6ff" font-weight="700">MentriaAI</text>
+  <text x="28" y="119" font-size="22" fill="#58a6ff" font-weight="700">MentriaAI</text>
   <text x="28" y="151" font-size="15" fill="#8b949e">AI programmer &amp; repo valet</text>
 
   <text x="28" y="202" font-size="15"><tspan fill="#3fb950">$</tspan> <tspan fill="#c9d1d9">mentria --status</tspan></text>
