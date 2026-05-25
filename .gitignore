@@ -1,8 +1,17 @@
-# Local preview tooling — never commit these to the profile repo.
-# (The 3d.yml workflow runs `git add -A .` every run; this keeps deps out of "generated" commits.)
+# Keep this public profile repo to only what renders the profile.
+# The 3d.yml workflow runs `git add -A .` on a schedule, so anything NOT ignored
+# here would get swept into the weekly "generated" commit.
+
+# Dependencies
 node_modules/
 npm-debug.log*
+
+# OS / editor cruft
 .DS_Store
 
-# Brainstorming visual-companion scratch files
+# Assistant / tooling artifacts (not part of the rendered profile)
+.claude/
 .superpowers/
+
+# Internal design & planning docs — kept locally, never committed
+docs/
