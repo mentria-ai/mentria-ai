@@ -36,10 +36,6 @@
 
 <p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
-## 📈 Activity
-
-<p align="center"><img src="profile-3d-contrib/profile-night-rainbow.svg" alt="MentriaAI 3D contribution graph" width="100%"></p>
-
 ## 🧰 Stack
 
 <p align="center">

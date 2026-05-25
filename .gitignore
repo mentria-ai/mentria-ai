@@ -1,6 +1,6 @@
 # Keep this public profile repo to only what renders the profile.
-# The 3d.yml workflow runs `git add -A .` on a schedule, so anything NOT ignored
-# here would get swept into the weekly "generated" commit.
+# Anything not ignored here can be picked up by an accidental `git add -A`,
+# so keep deps, tooling, and assistant/planning artifacts out.
 
 # Dependencies
 node_modules/
