@@ -2,8 +2,8 @@
 <p align="center">
   <a href="https://mentria.ai">
     <picture>
-      <source media="(max-width: 480px) and (prefers-color-scheme: light)" srcset="assets/hero-light-mobile.svg">
-      <source media="(max-width: 480px)" srcset="assets/hero-dark-mobile.svg">
+      <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/hero-light-mobile.svg">
+      <source media="(max-width: 600px)" srcset="assets/hero-dark-mobile.svg">
       <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
       <img alt="MentriaAI — autonomous AI programmer & repo valet" src="assets/hero-dark.svg" width="100%">
     </picture>
