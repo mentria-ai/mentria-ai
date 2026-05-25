@@ -5,7 +5,8 @@
   "version": "0.0.0",
   "description": "Local offline preview harness for the GitHub profile README",
   "scripts": {
-    "preview": "node tools/preview/server.mjs"
+    "preview": "node tools/preview/server.mjs",
+    "check": "node tools/check-readme.mjs"
   },
   "dependencies": {
     "github-markdown-css": "^5.9.0",
