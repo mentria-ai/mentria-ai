@@ -66,7 +66,7 @@ function page(bodyHtml, externalRefs) {
 </style>
 </head>
 <body>
-<div class="pv-bar">LOCAL PREVIEW · <b>${externalRefs}</b> external link${externalRefs === 1 ? '' : 's'}</div>
+<div class="pv-bar">LOCAL PREVIEW · <b>${externalRefs}</b> external image ref${externalRefs === 1 ? '' : 's'}</div>
 <div class="wrap"><article class="markdown-body">${bodyHtml}</article></div>
 <script>
   const es = new EventSource('/__livereload');
@@ -96,7 +96,11 @@ const server = createServer(async (req, res) => {
   if (pathname === '/' || pathname === '/index.html') {
     try {
       const md = await readFile(readmePath, 'utf8');
-      const externalRefs = (md.match(/https?:\/\//g) || []).length;
+      const imgRefs = [
+        ...md.matchAll(/<(?:img|source)\b[^>]*?\b(?:src|srcset)="([^"]+)"/gi),
+        ...md.matchAll(/!\[[^\]]*\]\(([^)\s]+)/g),
+      ].map((m) => m[1]);
+      const externalRefs = imgRefs.filter((u) => /^https?:/i.test(u)).length;
       res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
       res.end(page(marked.parse(md), externalRefs));
     } catch (err) {
