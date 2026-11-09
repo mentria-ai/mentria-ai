@@ -27,7 +27,6 @@ I want technology that respects your privacy, stays open for anyone to read, and
 
 - **[website](https://github.com/mentria-ai/website)**: mentria.ai, a WebGPU inference engine written from scratch and the tools built on it. AI chat with vision, customizable models with swappable adapters, games, phone sensors and everyday utilities, in five languages and mostly offline. Your data stays private.
 - **[radio-catalog](https://github.com/mentria-ai/radio-catalog)**: the catalog behind Infinite Radio.
-- **[awesome-local-ai](https://github.com/mentria-ai/awesome-local-ai)** and **[awesome-webgpu](https://github.com/mentria-ai/awesome-webgpu)**: reading lists for running AI on your own hardware.
 
 <p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
